@@ -12,6 +12,10 @@ Licence URI: http://www.os-templates.com/template-terms
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 </head>
 <body id="top">
 <!-- ################################################################################################ -->
@@ -26,8 +30,34 @@ Licence URI: http://www.os-templates.com/template-terms
       <article>
         <h2 class="heading">Welcome To Aether-Inc.</h2>
         <p>A Web-Development Cooporation That Takes A Conversion Based Approach For Building Static-Sites And Web-Apps For Enterpreneurs</p>
-        <footer>Click this button to recieve our tips on building and mainttaining a website free of charge<br><a class="btn" href="subscribe-form">Get It Free</a></footer>
-      </article>
+        <footer>Click this button to recieve our tips on building and mainttaining a website free of charge<br><a class="btn" data-toggle="collapse" data-target="#subscribe">Get It Free</a></footer>
+	  </article>
+	  
+				<div id="subscribe" class="collapse">
+				<div class="col-md-4 col-xs-12"></div>
+					<!-- Begin MailChimp Signup Form -->
+<div id="mc_embed_signup" class="col-md-4 col-xs-4 text-center">
+<form action="https://github.us17.list-manage.com/subscribe/post?u=6f8ca0a64695e5fb719598e46&amp;id=c6fc1dcf6b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<h2>Subscribe to recieve tips</h2>
+<div class="mc-field-group">
+	<label for="mce-EMAIL">Email Address </label>
+	<input type="email" value="" style="width:100%;" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_6f8ca0a64695e5fb719598e46_c6fc1dcf6b" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn-primary"></div>
+    </div>
+</form>
+</div>
+<!--End mc_embed_signup-->
+			<div class="col-md-4 col-xs-12"></div>
+				</div>
+	  
+	  
       <!-- ################################################################################################ -->
     </div>
   </div>
@@ -83,6 +113,7 @@ Licence URI: http://www.os-templates.com/template-terms
     <!-- main body -->
     <!-- ################################################################################################ -->
     <div class="btmspace-50 center">
+	<br>
       <h3 class="btmspace-10">Qualities To Expect From Contracting Us</h3>
       <p class="nospace">These are ten of our hallmark qualities you experience from using Aether for your web related services</p>
     </div>
@@ -91,44 +122,58 @@ Licence URI: http://www.os-templates.com/template-terms
         <figure><img src="images/demo/gallery/01.png" alt="">
           <figcaption>Professionalism</figcaption>
         </figure>
-        </a>
+        </a><br>
 		We are Professionals and we deliver top-rated professional services.
 		</li>
       <li class="one_quarter"><a href="#">
         <figure><img src="images/demo/gallery/01.png" alt="">
           <figcaption>Affordability</figcaption>
         </figure>
-        </a></li>
+        </a><br>
+		Our various services are priced at very affordable for prospective clients.
+		</li>
       <li class="one_quarter"><a href="#">
         <figure><img src="images/demo/gallery/01.png" alt="">
-          <figcaption>Tortor</figcaption>
+          <figcaption>Support</figcaption>
         </figure>
-        </a></li>
+        </a><br>
+		Our support and response team are always available to resolve issues that may arise.
+		</li>
       <li class="one_quarter"><a href="#">
         <figure><img src="images/demo/gallery/01.png" alt="">
-          <figcaption>Praesent</figcaption>
+          <figcaption>Reliability</figcaption>
         </figure>
-        </a></li>
+        </a><br>
+		We provide reliable services and are very reliable all through.
+		</li>
       <li class="one_quarter first"><a href="#">
         <figure><img src="images/demo/gallery/01.png" alt="">
           <figcaption>Gravida</figcaption>
         </figure>
-        </a></li>
+        </a><br>
+		
+		</li>
       <li class="one_quarter"><a href="#">
         <figure><img src="images/demo/gallery/01.png" alt="">
           <figcaption>Volutpat</figcaption>
         </figure>
-        </a></li>
+        </a><br>
+		
+		</li>
       <li class="one_quarter"><a href="#">
         <figure><img src="images/demo/gallery/01.png" alt="">
           <figcaption>Suspendisse</figcaption>
         </figure>
-        </a></li>
+        </a><br>
+		
+		</li>
       <li class="one_quarter"><a href="#">
         <figure><img src="images/demo/gallery/01.png" alt="">
           <figcaption>Tristique</figcaption>
         </figure>
-        </a></li>
+        </a><br>
+		
+		</li>
     </ul>
     <p class="center"><a class="btn inverse" href="#">Request A Quote</a></p>
     <!-- ################################################################################################ -->
@@ -274,7 +319,10 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
 <!-- JAVASCRIPTS -->
-<script src="layout/scripts/jquery.min.js"></script>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+<script type='text/javascript'>
+(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='BIRTHDAY';ftypes[3]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);
+</script>
 <script src="layout/scripts/jquery.backtotop.js"></script>
 <script src="layout/scripts/jquery.mobilemenu.js"></script>
 <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
