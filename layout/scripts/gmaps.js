@@ -10,7 +10,7 @@ File: Google Maps Setup js
 google.maps.visualRefresh = true; // Enable the visual refresh
 function initialize() {
     // Set up your geolocation latitude and longtitude
-    var latlang = new google.maps.LatLng(51.51121, -0.11982);
+    var latlang = new google.maps.LatLng(6.453823, 3.417434);
     var mapOptions = {
         // This will always position your loction in the middle of the displayed map, using your "latlang" settings
         center: latlang,
